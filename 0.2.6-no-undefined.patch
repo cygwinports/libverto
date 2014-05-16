@@ -1,0 +1,9 @@
+--- origsrc/libverto-0.2.6/src/Makefile.am	2014-03-12 13:13:23.000000000 -0500
++++ src/libverto-0.2.6/src/Makefile.am	2014-05-15 23:34:18.887898800 -0500
+@@ -1,5 +1,5 @@
+ AM_CFLAGS = -Wall -Wdeclaration-after-statement
+-AM_LDFLAGS = -version-info 1:0:0
++AM_LDFLAGS = -version-info 1:0:0 -no-undefined
+ EXTRA_DIST = libverto.symbols libverto-glib.symbols libverto-libev.symbols \
+              libverto-libevent.symbols libverto-tevent.symbols
+ 
